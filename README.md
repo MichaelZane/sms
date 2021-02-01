@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Running the project
 
-To run the project you will need a [Twilio account](www.twilio.com) and a Twilio phone number that can send SMS messages. Gather your Twilio Account Sid and Auth Token from the [Twilio console](https://www.twilio.com/console) and the phone number.
+To run the project you will need a [Twilio account](www.twilio.com/referral/yCEIVO) and a Twilio phone number that can send SMS messages. Gather your Twilio Account Sid and Auth Token from the [Twilio console](https://www.twilio.com/console) and the phone number.
 
 Clone the project, change into the directory and install the dependencies.
 
