@@ -18,11 +18,12 @@ code {
 }
 .sms-form label {
   display: block;
+  
 }
 .sms-form input,
 .sms-form textarea {
   font-size: 1em;
-  width: 100%;
+  width: 300px;
   box-sizing: border-box;
 }
 .sms-form div {
@@ -34,4 +35,35 @@ code {
 }
 .sms-form.error {
   outline: 2px solid #f00;
+}
+.sms-form.wrapper {
+  width: 300px;
+  height: 600px;
+
+}
+
+.btn{
+  width: 200px;
+  height: 35px;
+  background-color: blue;
+  color: white;
+  border-radius: 7px;
+}
+
+.form {
+  width: 400px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#body {
+  width: 250px;
+  height: 75px;
+  margin: 5%;
+}
+#to {
+  width: 250px;
+  height: 35px;
 }
