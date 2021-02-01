@@ -1,11 +1,11 @@
-const client = require('twilio')(
+const client = require("twilio")(
   process.env.REACT_APP_TWILIO_ACCOUNT_SID,
   process.env.REACT_APP_TWILIO_AUTH_TOKEN
 );
 
 export default async (req, res) => {
-  res.statusCode = 200
-  res.setHeader("Content-Type", "application/json")
+  res.statusCode = 200;
+  res.setHeader("Content-Type", "application/json");
 
   client.messages
     .create({
@@ -20,4 +20,4 @@ export default async (req, res) => {
       console.log(err);
       res.send(JSON.stringify({ success: false }));
     });
-}
+};
